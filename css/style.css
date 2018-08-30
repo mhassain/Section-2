@@ -1,0 +1,83 @@
+.top-section
+{
+	background-image: url(../image/Office-and-Commercial-Cleaning.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 100%;
+	height: 100%
+}
+.bottom-section
+{
+	background-image: url(../image/Residential-Cleaning.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 100%;
+	height: 100%;
+}
+.top-text
+{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.top-text h3
+{
+	font-weight: 700;
+}
+.top-text:after
+{
+    position: absolute;
+    top: 0;
+    left: -4884%;
+    height: 100%;
+    width: 5000%;
+    background-color: #042352;
+    content: "";
+    z-index: -1;
+    transform: skew(10deg);
+}
+.top-text a
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF7512;
+    padding: 8px 18px;
+    border-radius: 3px;
+}
+.bottom-text
+{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.bottom-text:after
+{
+    position: absolute;
+    top: 0;
+    right: -4885%;
+    height: 100%;
+    width: 4998%;
+    background-color: #00CCCD;
+    content: "";
+    z-index: -1;
+    transform: skew(10deg);
+}
+.bottom-text a
+{
+	text-decoration: none;
+    color: #fff;
+    background-color: #8AB740;
+    padding: 8px 18px;
+    border-radius: 3px;
+}
+
+.bottom-text h3
+{
+	font-weight: 700;
+}
